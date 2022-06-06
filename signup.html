@@ -13,13 +13,13 @@
 <body class="text-center">
 
   <main class="form-signin w-100 m-auto">
-    <form>
+    <form action="/" method="post">
       <img class="mb-4" src="image/SCP.png" alt="" width="72" height="72">
       <h1 class="h3 mb-3 fw-normal">Sign up to My Newsletter!</h1>
 
-      <input type="text" class="form-control shadow-none top" placeholder="First Name" required autofocus>
-      <input type="text" class="form-control shadow-none middle" placeholder="Last Name" required>
-      <input type="email" class="form-control shadow-none bottom" placeholder="Email" required>
+      <input type="text" class="form-control shadow-none top" placeholder="First Name" name="firstName" required autofocus>
+      <input type="text" class="form-control shadow-none middle" placeholder="Last Name" name="lastName" required>
+      <input type="email" class="form-control shadow-none bottom" placeholder="Email" name="email" required>
 
       <button class="w-100 btn btn-lg btn-primary" type="submit">Sign me up!</button>
       <p class="mt-5 mb-3 text-muted">&copy; The App Brewery 2022</p>
