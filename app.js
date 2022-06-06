@@ -1,14 +1,15 @@
 const express = require("express");
-const https = require("https");
+const request = require("request");
 const bodyParser = require("body-parser");
 
 const app = express();
+app.use(express.static("public"));
 const port = 3000;
 
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", function(req, res) {
-  res.send("<h1>Hello world!</h1>");
+  res.sendFile(__dirname + "/signup.html");
 });
 
 app.listen(port, function() {
