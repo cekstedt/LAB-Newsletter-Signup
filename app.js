@@ -39,10 +39,13 @@ app.post("/", function(req, res) {
   const jsonData = JSON.stringify(data);
 
   const options = {
-    agent: new HttpsProxyAgent(proxyServer),
     auth: "anystring:" + apiKey,
     method: "POST"
   };
+
+  if (proxyServer) {
+    options.agent = new HttpsProxyAgent(proxyServer);
+  }
 
   const request = https.request(url, options, function(response) {
     if (response.statusCode === 200) {
