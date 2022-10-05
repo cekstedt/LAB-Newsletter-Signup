@@ -6,6 +6,6 @@
   "hosted": "https://newsletter-signup-6vkl.onrender.com/",
   "original": false,
   "personal": false,
-  "thumbnail": null,
+  "thumbnail": "thumbnail.png",
   "technologies": ["html", "css", "bootstrap", "js", "node", "express", "api"]
 }
