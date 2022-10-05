@@ -1,0 +1,11 @@
+{
+  "name": "Newsletter Signup",
+  "repo": "https://github.com/cekstedt/LAB-Newsletter-Signup",
+  "challenger": "London App Brewery",
+  "challenge page": "https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/18125199",
+  "hosted": "https://newsletter-signup-6vkl.onrender.com/",
+  "original": false,
+  "personal": false,
+  "thumbnail": null,
+  "technologies": ["html", "css", "bootstrap", "js", "node", "express", "api"]
+}
