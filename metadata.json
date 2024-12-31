@@ -7,5 +7,7 @@
   "original": false,
   "personal": false,
   "thumbnail": "thumbnail.png",
-  "technologies": ["html", "css", "bootstrap", "js", "node", "express", "api"]
+  "technologies": ["html", "css", "bootstrap", "js", "node", "express", "api"],
+  "status": "complete",
+  "priority": "done"
 }
